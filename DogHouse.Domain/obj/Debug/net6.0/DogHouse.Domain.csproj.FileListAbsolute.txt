@@ -1,0 +1,11 @@
+C:\Users\Маша\source\repos\DogHouse\DogHouse.Domain\bin\Debug\net6.0\DogHouse.Domain.deps.json
+C:\Users\Маша\source\repos\DogHouse\DogHouse.Domain\bin\Debug\net6.0\DogHouse.Domain.dll
+C:\Users\Маша\source\repos\DogHouse\DogHouse.Domain\bin\Debug\net6.0\DogHouse.Domain.pdb
+C:\Users\Маша\source\repos\DogHouse\DogHouse.Domain\obj\Debug\net6.0\DogHouse.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Маша\source\repos\DogHouse\DogHouse.Domain\obj\Debug\net6.0\DogHouse.Domain.AssemblyInfoInputs.cache
+C:\Users\Маша\source\repos\DogHouse\DogHouse.Domain\obj\Debug\net6.0\DogHouse.Domain.AssemblyInfo.cs
+C:\Users\Маша\source\repos\DogHouse\DogHouse.Domain\obj\Debug\net6.0\DogHouse.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Маша\source\repos\DogHouse\DogHouse.Domain\obj\Debug\net6.0\DogHouse.Domain.dll
+C:\Users\Маша\source\repos\DogHouse\DogHouse.Domain\obj\Debug\net6.0\refint\DogHouse.Domain.dll
+C:\Users\Маша\source\repos\DogHouse\DogHouse.Domain\obj\Debug\net6.0\DogHouse.Domain.pdb
+C:\Users\Маша\source\repos\DogHouse\DogHouse.Domain\obj\Debug\net6.0\ref\DogHouse.Domain.dll

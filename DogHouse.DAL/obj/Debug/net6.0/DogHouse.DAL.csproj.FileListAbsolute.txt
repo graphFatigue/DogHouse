@@ -1,0 +1,17 @@
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\bin\Debug\net6.0\DogHouse.DAL.deps.json
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\bin\Debug\net6.0\DogHouse.DAL.dll
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\bin\Debug\net6.0\DogHouse.DAL.pdb
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\bin\Debug\net6.0\DogHouse.Domain.dll
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\bin\Debug\net6.0\DogHouse.Domain.pdb
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\obj\Debug\net6.0\DogHouse.DAL.csproj.AssemblyReference.cache
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\obj\Debug\net6.0\DogHouse.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\obj\Debug\net6.0\DogHouse.DAL.AssemblyInfoInputs.cache
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\obj\Debug\net6.0\DogHouse.DAL.AssemblyInfo.cs
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\obj\Debug\net6.0\DogHouse.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\obj\Debug\net6.0\DogHouse.DAL.csproj.CopyComplete
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\obj\Debug\net6.0\DogHouse.DAL.dll
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\obj\Debug\net6.0\refint\DogHouse.DAL.dll
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\obj\Debug\net6.0\DogHouse.DAL.pdb
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\obj\Debug\net6.0\ref\DogHouse.DAL.dll
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\bin\Debug\net6.0\DogHouse.DAL.runtimeconfig.json
+C:\Users\Маша\source\repos\DogHouse\DogHouse.DAL\obj\Debug\net6.0\DogHouse.DAL.genruntimeconfig.cache
