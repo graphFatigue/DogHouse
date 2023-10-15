@@ -1,4 +1,5 @@
 ﻿using DogHouse.DAL.Interfaces;
+using DogHouse.DAL.PageSort;
 using DogHouse.Domain.Entity;
 using DogHouse.Domain.Enum;
 using DogHouse.Domain.Response;
@@ -175,6 +176,39 @@ namespace DogHouse.Service.Implementations
                 return new BaseResponse<List<Dog>>()
                 {
                     Data = dogs,
+                    StatusCode = StatusCode.OK
+                };
+            }
+
+            catch (Exception ex)
+            {
+
+                return new BaseResponse<List<Dog>>()
+                {
+                    Description = $"[GetDogs] : {ex.Message}",
+                    StatusCode = StatusCode.InternalServerError
+                };
+            }
+        }
+
+        public async Task<IBaseResponse<List<Dog>>> GetDogsByParamsAsync(PageSortParam pageSortParam)
+        {
+            try
+            {
+                var dogs = _dogRepository.GetAll();
+                PageList<Dog> list = new PageList<Dog>(pageSortParam);
+                await list.GetData(dogs);
+                if (!list.Any())
+                {
+                    return new BaseResponse<List<Dog>>()
+                    {
+                        Description = "Found 0 elements",
+                        StatusCode = StatusCode.OK
+                    };
+                }
+                return new BaseResponse<List<Dog>>()
+                {
+                    Data = list,
                     StatusCode = StatusCode.OK
                 };
             }

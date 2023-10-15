@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1lCrwItu8FgbkXRqTSIujH+WB6kqVT0uJuzx2wp3vRkl5eF6AZOuYlU7O2Ku3CJ5ND23uPZgWDHnrrP/4NVEHg==",
+  "dgSpecHash": "AHWt78xLs4z+l7zd/oE9exxPBh6rbJaQgzCWAsxLneMml8xBw0Rud4JFS6KXbNuPT5T6h2m79r+PsNZQBf0Cug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Маша\\source\\repos\\DogHouse\\CreationDb\\CreationDb.csproj",
+  "projectFilePath": "C:\\Users\\Маша\\source\\repos\\DogHouse2\\DogHouse\\CreationDb\\CreationDb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Маша\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -47,6 +47,7 @@
     "C:\\Users\\Маша\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\system.formats.asn1\\5.0.0\\system.formats.asn1.5.0.0.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.24.0\\system.identitymodel.tokens.jwt.6.24.0.nupkg.sha512",
+    "C:\\Users\\Маша\\.nuget\\packages\\system.linq.dynamic.core\\1.3.5\\system.linq.dynamic.core.1.3.5.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

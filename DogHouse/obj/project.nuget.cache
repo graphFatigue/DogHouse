@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j39AijHS2lUkvh40+Ed6bRbKmuvJDs3I1N0rM3dwobjm/DlrBLqWiGVxoOtj9b6NM+a9WOXuvXODt24xgYkC3A==",
+  "dgSpecHash": "XZ9BG0IUs2wcpdDOUpEb2qJ4gH0oJjAnJTN6CwYj16oLPWovPuuRTrnYPviq2TL4IpWWRVHuP93okjMiZYUT7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Маша\\source\\repos\\DogHouse\\DogHouse\\DogHouse.csproj",
+  "projectFilePath": "C:\\Users\\Маша\\source\\repos\\DogHouse2\\DogHouse\\DogHouse\\DogHouse.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Маша\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -53,6 +53,7 @@
     "C:\\Users\\Маша\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\system.formats.asn1\\5.0.0\\system.formats.asn1.5.0.0.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.24.0\\system.identitymodel.tokens.jwt.6.24.0.nupkg.sha512",
+    "C:\\Users\\Маша\\.nuget\\packages\\system.linq.dynamic.core\\1.3.5\\system.linq.dynamic.core.1.3.5.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

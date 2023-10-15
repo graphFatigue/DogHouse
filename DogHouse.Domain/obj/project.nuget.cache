@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lwRZ1WQAujQqcTZ+PZP+EpONfiiEYvu9G0mEZ7fvVGWbkpaCG07/yDVH7xtWIzK8dRVcRZLhnl9Ucz0K95ALYw==",
+  "dgSpecHash": "160PmAhuJQzOdD4NM4IAc/lfCQr2azmFTt5K4PwAeusEBzhFBcHumLYb7RxsDij71SL8lU6pdyd/ZUJeDoR6+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Маша\\source\\repos\\DogHouse\\DogHouse.Domain\\DogHouse.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Маша\\source\\repos\\DogHouse2\\DogHouse\\DogHouse.Domain\\DogHouse.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

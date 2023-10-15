@@ -1,5 +1,7 @@
 ﻿using DogHouse.DAL.Interfaces;
+using DogHouse.DAL.PageSort;
 using DogHouse.Domain.Entity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +17,14 @@ namespace DogHouse.DAL.Repositories
         public DogRepository(ApplicationDbContext db)
         {
             _db = db;
+        }
+
+        public async Task<PageList<Dog>> GetByParams(PageSortParam pageSortParam)
+        {
+            PageList<Dog> list = new PageList<Dog>(pageSortParam);
+
+            await list.GetData(_db.Dogs);
+            return list;
         }
 
         public async Task Create(Dog entity)

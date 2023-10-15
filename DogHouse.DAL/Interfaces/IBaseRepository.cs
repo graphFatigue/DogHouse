@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DogHouse.DAL.PageSort;
+using DogHouse.Domain.Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
