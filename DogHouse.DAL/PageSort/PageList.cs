@@ -41,7 +41,7 @@ namespace DogHouse.DAL.PageSort
             }
 
             //if has sorting criteria
-            if (Param.SortField != null)
+            if (Param.SortField != "none")
                 query = query.OrderBy(Param.SortField +
                  (Param.SortDir == SortDirection.Ascending ? " ascending" : " descending"));
 

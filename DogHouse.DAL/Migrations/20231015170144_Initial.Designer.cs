@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DogHouse.DAL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231013090117_Initial")]
+    [Migration("20231015170144_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -38,7 +38,8 @@ namespace DogHouse.DAL.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("TailLength")
                         .HasColumnType("int");
