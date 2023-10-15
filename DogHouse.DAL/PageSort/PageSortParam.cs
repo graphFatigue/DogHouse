@@ -8,16 +8,25 @@ namespace DogHouse.DAL.PageSort
 {
     public class PageSortParam
     {
-        public int PageSize { get; set; } = 10;  //default page size
-        public int CurrentPage { get; set; } = 1;
+        public int pageSize { get; set; } = 10;  //default page size
+        public int pageNumber { get; set; } = 1;
 
-        public string SortField { get; set; } = "none";
-        public SortDirection SortDir { get; set; }
+        public Attribute attribute { get; set; } 
+        public Order order { get; set; }
     }
 
-    public enum SortDirection
+    public enum Order
     {
-        Ascending,   //default as ascending
-        Decending
+        asc,   //default as ascending
+        desc
+    }
+
+    public enum Attribute
+    {
+        none,   //default as none
+        Id,
+        Name,
+        TailLength,
+        Weight
     }
 }
