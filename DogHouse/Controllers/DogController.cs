@@ -1,4 +1,5 @@
-﻿using DogHouse.DAL.PageSort;
+﻿using Azure;
+using DogHouse.DAL.PageSort;
 using DogHouse.Domain.Entity;
 using DogHouse.Service.Interfaces;
 using Microsoft.AspNetCore.Http;
@@ -36,6 +37,10 @@ namespace DogHouse.Controllers
             if (response.StatusCode == Domain.Enum.StatusCode.OK && response.Description == "Found 0 elements")
             {
                 return Ok(response.Description);
+            }
+            if (response.StatusCode == Domain.Enum.StatusCode.InternalServerError)
+            {
+                return BadRequest();
             }
             return Ok(response.Data);
         }

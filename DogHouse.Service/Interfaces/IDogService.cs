@@ -16,7 +16,6 @@ namespace DogHouse.Service.Interfaces
         Task<IBaseResponse<Dog>> GetDog(int id);
         Task<IBaseResponse<Dog>> Create(Dog model);
         Task<IBaseResponse<bool>> DeleteDog(int id);
-        IBaseResponse<List<Dog>> Search(Dog model);
         Task<IBaseResponse<Dog>> Edit(int id, Dog model);
     }
 }

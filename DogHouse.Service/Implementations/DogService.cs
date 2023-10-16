@@ -94,7 +94,7 @@ namespace DogHouse.Service.Implementations
                     return new BaseResponse<Dog>()
                     {
                         Description = "Dog not found",
-                        StatusCode = StatusCode.ArtistNotFound
+                        StatusCode = StatusCode.DogNotFound
                     };
                 }
 
@@ -222,11 +222,6 @@ namespace DogHouse.Service.Implementations
                     StatusCode = StatusCode.InternalServerError
                 };
             }
-        }
-
-        public IBaseResponse<List<Dog>> Search(Dog model)
-        {
-            throw new NotImplementedException();
         }
     }
 }
