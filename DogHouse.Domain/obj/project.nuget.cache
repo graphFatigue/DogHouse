@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "160PmAhuJQzOdD4NM4IAc/lfCQr2azmFTt5K4PwAeusEBzhFBcHumLYb7RxsDij71SL8lU6pdyd/ZUJeDoR6+g==",
+  "dgSpecHash": "Yv7EBMr6qLM6+t+bX9fOEE0ZX1rh90CvrPgVLNE0/TzpdjKPHBZgMeXrjw834VBWFbDpRHa6Zd07uDMb46vRCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Маша\\source\\repos\\DogHouse2\\DogHouse\\DogHouse.Domain\\DogHouse.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Маша\\source\\repos\\DogHouse5\\DogHouse\\DogHouse.Domain\\DogHouse.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Маша\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Маша\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\Маша\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\Маша\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\Маша\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\Маша\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

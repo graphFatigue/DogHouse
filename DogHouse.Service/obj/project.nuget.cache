@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "IxLKDF0zjk9YMurkEA4w2d0MyEX4c9Dc2H0gldFA3TaazbxRLM90a2FspG0h+7JsVA9J/3LwniJniiWPn/EYww==",
+  "dgSpecHash": "GL2iL/vsxDJY8Bgg8m12rPB7DHtlg/drNGc6nQAg+0c3+BtZv7kmbTGvOndhn3HXDLdW3ncPa3CX0/NG+jKvyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Маша\\source\\repos\\DogHouse2\\DogHouse\\DogHouse.Service\\DogHouse.Service.csproj",
+  "projectFilePath": "C:\\Users\\Маша\\source\\repos\\DogHouse5\\DogHouse\\DogHouse.Service\\DogHouse.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Маша\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\Маша\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Маша\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",

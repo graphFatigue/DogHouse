@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "akI6awKgD7t3sc1sXVarhWX69lkueWpRCQLXxHMoRvVfevqJ+5HfkWEZNPgtqnEt31/NuCug+3qIgHK/fNXE+g==",
+  "dgSpecHash": "1EO9DlOl5tQ5Pf0GbGvBQnIDxS8Lh4PwPp67QJZimroXbFOeENxngp6Hw0DVyEJnAaMq/n+kl1udDKhg3MZ9cg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Маша\\source\\repos\\DogHouse2\\DogHouse\\DogHouse.DAL\\DogHouse.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Маша\\source\\repos\\DogHouse5\\DogHouse\\DogHouse.DAL\\DogHouse.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Маша\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Маша\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Маша\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Маша\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",

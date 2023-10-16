@@ -1,3 +1,4 @@
+using AspNetCoreRateLimit;
 using DogHouse.DAL;
 using DogHouse.DAL.Interfaces;
 using DogHouse.DAL.Repositories;
@@ -18,6 +19,30 @@ builder.Services.AddDbContext<ApplicationDbContext>
 
 builder.Services.AddScoped<IBaseRepository<Dog>, DogRepository>();
 builder.Services.AddScoped<IDogService, DogService>();
+
+builder.Services.AddMemoryCache();
+builder.Services.Configure<IpRateLimitOptions>(options =>
+{
+    options.EnableEndpointRateLimiting = true;
+    options.StackBlockedRequests = false;
+    options.HttpStatusCode = 429;
+    options.RealIpHeader = "X-Real-IP";
+    options.ClientIdHeader = "X-ClientId";
+    options.GeneralRules = new List<RateLimitRule>
+        {
+            new RateLimitRule
+            {
+                Endpoint = "*",
+                Period = "10s",
+                Limit = 2,
+            }
+        };
+});
+builder.Services.AddSingleton<IIpPolicyStore, MemoryCacheIpPolicyStore>();
+builder.Services.AddSingleton<IRateLimitCounterStore, MemoryCacheRateLimitCounterStore>();
+builder.Services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
+builder.Services.AddSingleton<IProcessingStrategy, AsyncKeyLockProcessingStrategy>();
+builder.Services.AddInMemoryRateLimiting();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -45,8 +70,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-
-
-
+app.UseIpRateLimiting();
 
 app.Run();
